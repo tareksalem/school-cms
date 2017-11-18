@@ -1,0 +1,42 @@
+{
+  "name": "school-cms",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "async": "*",
+    "bcrypt-nodejs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "*",
+    "crypto": "*",
+    "debug": "*",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "handlebars": "*",
+    "hbs": "*",
+    "helper-moment": "*",
+    "moment": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "morgan": "*",
+    "multer": "*",
+    "nodemailer": "*",
+    "nodemailer-smtp-transport": "*",
+    "nodemon": "*",
+    "passport": "*",
+    "passport-local": "*",
+    "sanitize": "*",
+    "sanitize-html": "*",
+    "serve-favicon": "*"
+  },
+  "engines": {
+    "node": "*",
+    "npm": "*"
+  }
+}
